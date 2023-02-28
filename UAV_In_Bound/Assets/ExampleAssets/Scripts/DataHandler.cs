@@ -6,7 +6,7 @@ public class DataHandler : MonoBehaviour
 {
     public GameObject objects;
     private static DataHandler instance;
-    public DataHandler Instance
+    public static DataHandler Instance
     {
         get
         {
