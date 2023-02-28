@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class ButtonManager : MonoBehaviour
 /**
 * Author: Betzaida Ortiz Rivas
 * Description: Manage Input from User
 * Updated: 2/23/23
 **/
 {
-    public Button btn; //can make private
+    private Button btn; //can make private
     public GameObject objects;
 
     // Start is called before the first frame update

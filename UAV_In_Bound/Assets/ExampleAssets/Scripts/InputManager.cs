@@ -10,7 +10,6 @@ public class InputManager : MonoBehaviour
  * Updated: 2/21/23
  **/
 {
-    [SerializeField] private GameObject arObj;
     [SerializeField] private Camera arCam;
     [SerializeField] private ARRaycastManager _raycastManager;
 
@@ -31,7 +30,7 @@ public class InputManager : MonoBehaviour
             if(_raycastManager.Raycast(ray, _hits))
             {
                 Pose pose = _hits[0].pose;
-                Instantiate(arObj, pose.position, pose.rotation);
+                Instantiate(DataHandler.Instance.objects, pose.position, pose.rotation);
             }
         }
     }
