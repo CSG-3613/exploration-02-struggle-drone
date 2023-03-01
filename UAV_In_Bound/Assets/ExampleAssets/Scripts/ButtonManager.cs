@@ -10,7 +10,7 @@ public class ButtonManager : MonoBehaviour
 * Updated: 2/23/23
 **/
 {
-    private Button btn; //can make private
+    private Button btn;
     public GameObject objects;
 
     // Start is called before the first frame update
