@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 31768206}
   - component: {fileID: 31768209}
   m_Layer: 5
-  m_Name: Cube
+  m_Name: Statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88434fc5f37a2b438d536b10d356c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: {fileID: 7414126791596113512, guid: fe573e7abb8af466791f07600c0785e3, type: 3}
+  objects: {fileID: 6664293638085378489, guid: 7687b066edb40fc408dc1631519353f0, type: 3}
 --- !u!1 &190177869
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88434fc5f37a2b438d536b10d356c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: {fileID: 275909022691613470, guid: 3ee65c5fc5eca27458e430e501b01531, type: 3}
+  objects: {fileID: 1209946295115690421, guid: 6a375a3d852600a4299f5fa801689f2c, type: 3}
 --- !u!1 &422218013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88434fc5f37a2b438d536b10d356c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: {fileID: 1649479408248757808, guid: be1df8efa87afc34f8c5e084f4137acd, type: 3}
+  objects: {fileID: 975614260387111340, guid: 212569c5294bbb949bfffce9dd334861, type: 3}
 --- !u!1 &977595625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arCam: {fileID: 1485384753}
-  _raycastManager: {fileID: 0}
+  _raycastManager: {fileID: 977595627}
 --- !u!4 &1550598946
 Transform:
   m_ObjectHideFlags: 0
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cube
+  m_text: Statue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
