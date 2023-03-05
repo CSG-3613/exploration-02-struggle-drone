@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.MagicLeap;
 
 public class InputManager : MonoBehaviour
 /**
@@ -30,14 +29,14 @@ public class InputManager : MonoBehaviour
     {
         touch = Input.GetTouch(0);
 
-        if(Input.touchCount <= 0 || touch.phase != TouchPhase.Began)
+        if(Input.touchCount < 0 || touch.phase != TouchPhase.Began)
         {
             return;
         }
 
         if (IsPointerOverUI(touch)) return;
 
-            Ray ray = arCam.ScreenPointToRay(Input.mousePosition); //reads "mouse" position
+            Ray ray = arCam.ScreenPointToRay(touch.position); //reads "mouse" position
             if(_raycastManager.Raycast(ray, _hits))
             {
                 Pose pose = _hits[0].pose;
