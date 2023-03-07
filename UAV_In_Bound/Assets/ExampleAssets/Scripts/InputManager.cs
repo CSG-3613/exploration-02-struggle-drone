@@ -41,7 +41,7 @@ public class InputManager : MonoBehaviour
             if(_raycastManager.Raycast(ray, _hits))
             {
                 Pose pose = _hits[0].pose;
-                Instantiate(DataHandler.Instance.objects, pose.position, pose.rotation);
+                Instantiate(DataHandler.Instance.objects, pose.position, DataHandler.Instance.objects.transform.rotation);
             }
     }
 
